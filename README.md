@@ -1,29 +1,13 @@
 ![alt text](https://raw.githubusercontent.com/umutaktepe/CoronaNotifier/master/icon/coronanotifierlogo.png "Corona Notifier")
 
-# Corona Notifier
+# CoronaNotifier
 
-[![Pyup Status](https://pyup.io/repos/github/umutaktepe/AeroTools/shield.svg?t=1572373789737)](https://pyup.io/account/repos/github/umutaktepe/AeroTools/) [![GitHub issues](https://img.shields.io/github/issues/umutaktepe/AeroTools)](https://github.com/umutaktepe/AeroTools/issues) [![Known Vulnerabilities](https://snyk.io/test/github/umutaktepe/AeroTools/badge.svg?targetFile=requirements.txt)](https://snyk.io/test/github/umutaktepe/AeroTools?targetFile=requirements.txt) [![GitHub license](https://img.shields.io/github/license/umutaktepe/AeroTools)](https://github.com/umutaktepe/AeroTools/blob/master/LICENSE)
+[![Updates](https://pyup.io/repos/github/umutaktepe/CoronaNotifier/shield.svg)](https://pyup.io/repos/github/umutaktepe/CoronaNotifier/) [![GitHub issues](https://img.shields.io/github/issues/umutaktepe/CoronaNotifier)](https://github.com/umutaktepe/CoronaNotifier/issues) [![Known Vulnerabilities](https://snyk.io/test/github/umutaktepe/CoronaNotifier/badge.svg?targetFile=requirements.txt)](https://snyk.io/test/github/umutaktepe/CoronaNotifier?targetFile=requirements.txt) [![GitHub license](https://img.shields.io/github/license/umutaktepe/CoronaNotifier)](https://github.com/umutaktepe/CoronaNotifier/blob/master/LICENSE)
 
-AeroTools is a toolset written in Python. It allows you to:
+CoronaNotifier is a notifying tool written in Python. It allows you to:
 
-  - Calculate some complex aerodynamics related equations
-  - Plot certain performance graphs
-
-#### What can you calculate?
-  - Takeoff and landing speeds
-  - Takeoff and landing distances
-  - Thrust and power required in certain velocities
-  - Wing loading and aspect ratio
-
-#### What can you plot?
-  - Lift coefficient vs Velocity graph
-  - Thrust required vs Velocity graph
-  - Power required vs Velocity graph
-  - Drag vs Velocity graph
-  - Lift-to-drag ratio vs Velocity graph
-  - Thrust available vs Thrust required graph
-  
-AeroTools can also be used for performance calculations of scaled and model UAVs as well. It provides reliable data based on the equations provided in aerospace industry.
+  - Get regular case notifications based on the country you specified
+  - Specify the notification duration and interval
 
 #### Usage
 
@@ -32,41 +16,32 @@ AeroTools requires Python 3+ and the packages which are specified in [requiremen
 1. To install the necessary packages:
 
 ```sh
-$ pip3 install PyQt5
-$ pip3 install numpy
-$ pip3 install PyQt5
-$ pip3 install XlsxWriter
-$ pip3 install matplotlib
-$ pip3 install xlrd
-$ pip3 install xlwt
+$ pip3 install requests
+$ pip3 install notify2
+$ pip3 install beautifulsoup4
 ```
 **or you can use your own IDE to install the packages.*
 
 2. Get clone in Linux terminal:
 
 ```sh
-$ git clone https://github.com/umutaktepe/AeroTools.git
+$ git clone https://github.com/umutaktepe/CoronaNotifier.git
 ```
 
 3. Go to the directory:
 
 ```sh
-$ cd AeroTools
+$ cd CoronaNotifier
 ```
 
-4. Run AeroTools.py:
+4. Run CoronaNotifier.py:
 
 ```sh
-$ python3 AeroTools.py
+$ python3 CoronaNotifier.py
 ```
 
 5. Enjoy it!
 
-
-#### Todos
-
- - Add more graphs to plot
- - Translate in Turkish
 
 License
 ----
