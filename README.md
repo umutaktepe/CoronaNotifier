@@ -1,6 +1,6 @@
-![alt text](https://raw.githubusercontent.com/umutaktepe/AeroTools/master/icons/AeroToolsHeader.png "AeroTools")
+![alt text](https://raw.githubusercontent.com/umutaktepe/CoronaNotifier/master/icon/coronanotifierlogo.png "Corona Notifier")
 
-# AeroTools
+# Corona Notifier
 
 [![Pyup Status](https://pyup.io/repos/github/umutaktepe/AeroTools/shield.svg?t=1572373789737)](https://pyup.io/account/repos/github/umutaktepe/AeroTools/) [![GitHub issues](https://img.shields.io/github/issues/umutaktepe/AeroTools)](https://github.com/umutaktepe/AeroTools/issues) [![Known Vulnerabilities](https://snyk.io/test/github/umutaktepe/AeroTools/badge.svg?targetFile=requirements.txt)](https://snyk.io/test/github/umutaktepe/AeroTools?targetFile=requirements.txt) [![GitHub license](https://img.shields.io/github/license/umutaktepe/AeroTools)](https://github.com/umutaktepe/AeroTools/blob/master/LICENSE)
 
