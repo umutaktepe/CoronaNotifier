@@ -11,7 +11,7 @@ CoronaNotifier is a notifying tool written in Python. It allows you to:
 
 #### Usage
 
-AeroTools requires Python 3+ and the packages which are specified in [requirements file.](/requirements.txt "Required Python Packages")
+CoronaNotifier requires Python 3+ and the packages which are specified in [requirements file.](/requirements.txt "Required Python Packages")
 
 1. To install the necessary packages:
 
