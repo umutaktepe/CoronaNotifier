@@ -1,3 +1,5 @@
 requests==2.21.0
 notify2==0.3.1
 beautifulsoup4==4.9.0
+
+urllib3>=1.25.9 # not directly required, pinned by Snyk to avoid a vulnerability
